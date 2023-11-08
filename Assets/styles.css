@@ -1,0 +1,20 @@
+:root {
+    --background-color: #0B0C10;
+    --gray-color: #c5c6c7; 
+    --cyan-color: #66FCF1;
+  }
+
+.hero-body {
+    background-color: var(--background-color);
+}
+
+.title {
+    text-shadow: 0px 2px 1px var(--cyan-color);
+    font-family: Agbalumo, 'Times New Roman', Times, serif;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+}
