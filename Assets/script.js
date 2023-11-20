@@ -1,3 +1,4 @@
+// Function creates shooting Stars on page 
 function createShootingStar() {
     const star = document.createElement('div');
     star.classList.add('shooting-star');
@@ -18,7 +19,7 @@ function createShootingStar() {
   function generateShootingStars() {
     setInterval(() => {
       createShootingStar();
-    }, 5000); // Generate a shooting star every 5 seconds (5000ms)
+    }, 3000); // Generate a shooting star every 3 seconds (3000ms)
   }
   
   generateShootingStars(); // Start generating shooting stars
