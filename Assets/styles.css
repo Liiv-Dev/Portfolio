@@ -1,5 +1,6 @@
 :root {
     --cyan: #00f8f8;
+    --dark-cyan: #008b8b;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
   }
 
   nav {
-    border-bottom: 0.1px solid white;
+    border-bottom: 1px solid rgba(255,255,255,.2);
     height: 60px;
   }
 
