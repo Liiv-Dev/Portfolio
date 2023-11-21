@@ -12,10 +12,10 @@ function createShootingStar() {
   
     setTimeout(() => {
       star.remove(); // Remove the shooting star after animation ends
-    }, 3000); // 3000ms (3s) is the duration of the shooting star animation
+    }, 5000); // 5000ms (5s) is the duration of the shooting star animation
   }
   
-  // Function to generate shooting stars every 10 seconds
+  // Function to generate shooting stars every 3 seconds
   function generateShootingStars() {
     setInterval(() => {
       createShootingStar();

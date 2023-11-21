@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                   <!--Google Fonts import-->
-<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dosis&display=swap" rel="stylesheet">
                     <!--CSS Page Link-->
     <link rel="stylesheet" href="Assets/styles.css">
                     <!--Bulma CSS import-->
@@ -15,30 +15,43 @@
   </head>
   <body>
                     <!--CONTENT STARTS HERE-->
-    <section class="hero is-fullheight has-navbar-fixed-top m-0">
-      <div class="hero-body">
+    <section class="hero is-fullheight has-navbar-fixed-top m-0 is-flex is-flex-direction-column">
 
                         <!--Navbar at bottom of Page-->
-      <nav class="navbar is-fixed-top is-size-4 is-flex is-justify-content-center ">
-        <a class="has-text-light m-2" href="#home">Home</a>
-        <a class="has-text-light m-2" href="#">About</a>
-        <a class="has-text-light m-2" href="#">Skills</a>
-        <a class="has-text-light m-2" href="#">Projects</a>
-        <a class="has-text-light m-2" href="#">Work</a>
-        <a class="has-text-light m-2" href="#">Contact</a>
-      </nav>
-
-                      <!--Title and Intro-->
-        <div id="home" class="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-around">
+        <nav class="navbar is-fixed-top is-size-4 is-flex is-justify-content-center ">
+          <a class="has-text-light m-2" href="#home">Home</a>
+           <a class="has-text-light m-2" href="#about">About</a>
+           <a class="has-text-light m-2" href="#">Skills</a>
+           <a class="has-text-light m-2" href="#">Projects</a>
+           <a class="has-text-light m-2" href="#">Work</a>
+           <a class="has-text-light m-2" href="#">Contact</a>
+        </nav>
+                        
+                        <!--Title and Intro Body-->
+      <div id="home" class="intro hero-body">
+        <div class="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-around">
           <p class="title is-size-1 mt-6 has-text-light">
             Hello 👋🏾,<br> I'm <span>Liiv</span><br> A Software Developer
           </p>
           <img src="Assets/images/pixel Picture.jpg" alt="Pixel Pic of ME" class="pixel-pic">
         </div>
-
-        <div class="about-container" id="about"></div>
-        
       </div>
+
+                    <!--About Me Body--> 
+      <section class="hero is-fullheight">
+        <div id="about" class="about hero-body is-flex is-justify-content-center is-align-content-center is-flex-direction-column">
+          <div class="has-text-centered m-0">
+            <img class="about-pic mt-4" src="Assets/images/pixel Picture.jpg">
+            <p class="title is-size-1 has-text-light is-underlined">
+              Few Things About <span>Me</span>
+            </p>
+            <p class="subtitle about-text is-size-3 m-4 has-text-light">
+              Im a parent to a set of red head Twins <br> and a uncle to many. If im not working, i'm spending<br> time with my kids, traveling, gaming, boxing/ training, making content,<br> and studying stocks or "AI" stuff.<br> My personality carries both traits of an introvert and<br> extrovert. Which i guess you can say is a blessing and a curse.<br> 
+            </p>
+          </div>
+        </div>
+    </section>
+
     </section>
                     <!--End of Content-->
 

@@ -9,10 +9,15 @@ html {
     overflow: hidden;
   }
 
+  /* navbar */
   nav {
-    
     border-bottom: 1px solid rgba(255,255,255,.2);
     height: 60px;
+  }
+
+  /* Styling for Intro */
+  .intro {
+    height: 100vh;
   }
 
   .title {
@@ -28,7 +33,21 @@ html {
     height: 400px;
     border-radius: 100px;
     box-shadow: 0px 5px 15px whitesmoke;
+  }
 
+  /* Styling for About Container */
+.about {
+  height: 100vh;
+}
+
+  .about-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+  }
+
+  .about-text {
+    font-family: dosis;
   }
   
   /* Shooting Star animation */
