@@ -23,5 +23,3 @@ function createShootingStar() {
   }
   
   generateShootingStars(); // Start generating shooting stars
-  
-  
