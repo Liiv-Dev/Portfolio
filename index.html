@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Willie's Portfolio!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                  <!--Google Fonts import-->
+        <!--Google Fonts import-->
 <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Dosis&display=swap" rel="stylesheet">
-                    <!--CSS Page Link-->
+        <!--CSS Page Link-->
     <link rel="stylesheet" href="Assets/styles.css">
-                    <!--Bulma CSS import-->
+        <!--Bulma CSS import-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <!--Font Awesome import-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scVxKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
+
   <body>
-      <!--CONTENT STARTS HERE-->
-    <section class="hero is-fullheight has-navbar-fixed-top m-0 is-flex is-flex-direction-column">
+          <!--CONTENT STARTS HERE-->
+    <section class="hero is-fullheight fullpage has-navbar-fixed-top m-0 is-flex is-flex-direction-column">
 
           <!--Navbar at bottom of Page-->
-        <nav class="navbar is-fixed-top is-size-4 is-flex is-justify-content-center ">
-          <a class="has-text-light m-2 nav-links" href="#home">Home</a>
-          <a class="has-text-light m-2 nav-links" href="#about">About</a>
-          <a class="has-text-light m-2 nav-links" href="#skills">Skills</a>
-          <a class="has-text-light m-2 nav-links" href="#projects">Projects</a>
-          <a class="has-text-light m-2 nav-links" href="#work">Work</a>
-          <a class="has-text-light m-2 nav-links" href="#contact">Contact</a>
+        <nav class="navbar is-fixed-top is-size-4 is-flex is-justify-content-center has-background-black">
+          <a class="has-text-light m-2 nav-links m-2" href="#home">Home</a>
+          <a class="has-text-light m-2 nav-links m-2" href="#about">About</a>
+          <a class="has-text-light m-2 nav-links m-2" href="#skills">Skills</a>
+          <a class="has-text-light m-2 nav-links m-2" href="#projects">Projects</a>
+          <a class="has-text-light m-2 nav-links m-2" href="#work">Resume</a>
+          <a class="has-text-light m-2 nav-links m-2" href="#contact">Contact</a>
         </nav>
-                        
-        <!--Title and Intro Body-->
+
+          <!--Title and Intro Body-->
       <div id="home" class="intro hero-body">
         <div class="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-around">
           <p class="title is-size-1 mt-6 has-text-light">
-            Hello 👋🏾,<br> I'm <span>Will</span><br> A Software Developer
+            Hello 👋🏾,<br> I'm <span>Will</span>,<br>A Part-Time Student <br> And Software Developer
           </p>
           <img src="Assets/images/pixel Picture.jpg" alt="Pixel Pic of ME" class="pixel-pic">
         </div>
       </div>
 
-        <!--About Me Body--> 
+          <!--About Me Body--> 
       <section class="hero is-fullheight">
         <div id="about" class="about hero-body is-flex is-justify-content-center is-align-content-center is-flex-direction-column">
           <div class="has-text-centered m-0">
             <img class="about-pic mt-4" src="Assets/images/pixel Picture.jpg">
-            <p class="title is-size-1 has-text-light is-underlined">
+            <p class="title is-size-1 has-text-light is-underlined m-4">
               Few Things About <span>Me</span>
             </p>
-            <p class="subtitle about-text is-size-4 m-4 has-text-light">
+            <p class="subtitle about-text is-size-4 m-5 has-text-light">
               Im a parent to a set of identical red head Twin Boys. If im not working, i'm spending<br> time with my kids, traveling, gaming, boxing/ training, making content,<br> and studying.<br> My personality carries both traits of an introvert and<br> extrovert. Which i guess you can say is a blessing and a curse...<br> 
             </p>
           </div>
         </div>
     </section>
 
-      <!--Section to display skills-->
+          <!--Section to display skills-->
     <section class="hero is-fullheight">
       <div id="skills" class="hero-body is-flex  is-flex-direction-column is-justify-content-space-evenly">
 
@@ -64,6 +68,7 @@
 
         <div class="skillDrop is-flex is-flex-wrap-wrap is-justify-content-space-evenly">
 
+          <!--FrontEnd Skills Progress Bars-->
           <div class="frontendSkills m-5">
             <p class="title"><span>FrontEnd</span></p>
             <p class="has-text-white">HTML 99%</p>
@@ -78,6 +83,7 @@
             <progress class="progress is-primary" value="98" max="100">98%</progress>
           </div>
 
+          <!--BackEnd Skills Progress Bars-->
           <div class="backendSkills m-5">
             <p class="title has-text-white"><span>BackEnd</span></p>
             <p class="has-text-white">Node 84%</p>
@@ -173,28 +179,118 @@
 
       <!--Work container-->
     <section class="hero is-fullheight">
-      <div id="work" class="hero-body">
+      <div id="work" class="hero-body is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+
         <div class="">
-          <p class="title is-size-1 has-text-light is-underlined">
-            What I do for work
-          </p>
-          <p class="subtitle">
-            Work info
+          <p class="title is-size-1 has-text-light is-underlined m-3">
+            Resume
           </p>
         </div>
-      </div>
+
+        <div class="careers is-size-6 m-1" style="overflow-y: auto; max-height: 80vh;">
+          <!--Job Container-->
+        <div class="jobs">
+          <p class="title is-size-2 has-text-light is-underlined m-5 has-text-centered">
+            <span>Job Experience</span>
+          </p>
+
+          <p class="is-size-3 has-text-light m-2">
+            RenewAire LLC - Waunakee, WI
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Job Title:</span> Commercial Tech 
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Dates:</span> Dec 2022 - Current
+          </p>
+          <p class="has-text-light is-size-5 m-2 description">
+            <span>Description:</span> Build ventilation systems using hand tools and materials provided. Wire electrical components (unit & controllers) according to schematic layouts.  Run  HiPot  tests  and  perform  live  electrical  tests  to  ensure  units are running properly
+          </p>
+
+          <p class="is-size-3 has-text-light m-2">
+            ThermaStor - Madison, WI
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Job Title:</span> Refrigeration Tech 
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Dates:</span> July 2020 - Apr 2022
+          </p>
+          <p class="has-text-light is-size-5 m-2 description">
+            <span>Description:</span> Charge units with refrigerant, Braze copper parts & Assemble dehumidifiers, build electrical boxes that power unit, run hi-pot current test, final quality checks on units, box unites for shipping
+          </p>
+
+          <p class="is-size-3 has-text-light m-2">
+            Colony Brands - Sun Prairie, WI
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Job Title:</span> DCA 
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Dates:</span> Oct 2015 - 2022
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Description:</span> (Part-Time) All around employee. I work in all areas, Truck Load/Unload, Packing, Picking, Taping, Induction, Labeling, Product Prep, and Product Return. Operate Forklifts to pick Ship Alone orders and restocks
+          </p>
+        </div>
+
+        <!--Education Container-->
+        <div class="education m-3">
+          <p class="title is-size-2 has-text-light m-5 is-underlined has-text-centered">
+            <span>Education</span>
+          </p>
+
+          <p class="is-size-3 has-text-light m-2">
+            UW Madison Coding Bootcamp
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Program:</span> Full Stack Web Development
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Date/Grad:</span> August 2023 - Feb 2024!
+          </p>
+          <p class="has-text-light is-size-5 m-2 description">
+            <span>~</span> Learn fundamental concepts of web development, including HTML, CSS, and JavaScript. Work with servers, databases, and other back end technologies, such as MySQL database, and Node.js. Grow skills using NoSQL databases, convert traditional applications into progressive web applications, and learn React
+          </p>
+
+          <p class="is-size-3 has-text-light m-2">
+            Sun Prairie HighSchool
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Grad:</span> June 2015 
+          </p>
+          <p class="has-text-light is-size-5 m-2 description">
+            <span>~</span> General Studies
+          </p>
+
+          <p class="is-size-3 has-text-light m-2">
+            CodeCademy
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Program:</span> Full Stack Web Development
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>Date/Grad:</span> Self-Paced Career Path (25%) <progress class="progress is-primary m-1" value="25" max="100">84%</progress>
+          </p>
+          <p class="has-text-light is-size-5 m-2">
+            <span>~</span> Build stylized and responsive websites with HTML and CSS, interactive sites using JavaScript and host it on a remote GitHub repository, learn front-end skills needed to create and deploy interactive applications, like a single-page web app that handles user actions, and back-end development: creating a RESTful API that serves data and designing relational databases.
+          </p>
+        </div>
+        </div>
     </section>
 
       <!--Contact Container-->
     <section class="hero is-fullheight">
       <div id="contact" class="hero-body">
+
         <div class="">
           <p class="title is-size-1 has-text-light is-underlined">
             Contact Info
           </p>
-          <p class="subtitle">
-            Media Icons
-          </p>
+        </div>
+        <div>
+          <p><span>Email:</span> williejones321@gmail.com</p>
+          <p class="has-text-light is-size-5 m-1"><span>Phone:</span> 6085720885</p>
         </div>
       </div>
     </section>
@@ -203,6 +299,7 @@
       <!--End of Content-->
 
       <!--Js Page Link-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-s3qHjJtqnxB7Ck6PAa3IoFfDnK/4cJwHnmC/X++mhp4Gk5cd6D5vqAVNOMiWo9f8HWoKpzjJouZBpGOv7gZdZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="Assets/script.js"></script>                    
   </body>

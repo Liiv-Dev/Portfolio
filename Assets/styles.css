@@ -10,15 +10,14 @@
 }
 
 html {
-    height: 100vh;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   }
 
-  /* navbar */
-  nav {
-    border-bottom: 1px solid rgb(255, 255, 255);
-    height: 5%;
-  }
+/* navbar */
+nav {
+  height: 5px;
+}
+
 
   /* Styling for Intro */
   .intro {
@@ -58,8 +57,12 @@ html {
   }
 
   /* Styling for Skills container */
-  .skillDrop {
-    width: 800px;
+  .frontendSkills {
+    width: 500px;
+  }
+
+  .backendSkills {
+    width: 500px;
   }
 
   /* Styling for Projects container */
@@ -154,6 +157,16 @@ html {
 
   .card[for="c5"] {
     background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  }
+
+  /* Styling for Work container */
+  .description {
+    border-bottom: 1px solid white;
+  }
+
+  .careers {
+    border: 1px solid white;
+    border-radius: 20px;
   }
   
   /* Shooting Star animation */

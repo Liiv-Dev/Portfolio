@@ -23,3 +23,16 @@ function createShootingStar() {
   }
   
   generateShootingStars(); // Start generating shooting stars
+
+  // Controls full page scroll
+  new fullpage('#main-container', {
+    autoScrolling: true,
+    scrollHorizontally: true,
+    sectionSelector: '.hero',
+    scrollingSpeed: 1000,
+    easing: 'easeInOutCubic',
+    easingcss3: 'ease',
+    loopBottom: true,
+    loopTop: true,
+    css3: true,
+  });
