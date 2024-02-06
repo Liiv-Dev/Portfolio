@@ -13,29 +13,42 @@
     <link rel="stylesheet" href="Assets/styles.css">
         <!--Bulma CSS import-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <!--Font Awesome import-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scVxKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
 
   <body>
           <!--CONTENT STARTS HERE-->
-    <section class="hero is-fullheight fullpage has-navbar-fixed-top m-0 is-flex is-flex-direction-column">
+    <section class="hero is-fullheight fullpage has-navbar-fixed-top m-0">
 
-          <!--Navbar at bottom of Page-->
-        <nav class="navbar is-fixed-top is-size-4 is-flex is-justify-content-center has-background-black">
-          <a class="has-text-light m-2 nav-links m-2 is-underlined" href="#home">Home</a>
-          <a class="has-text-light m-2 nav-links m-2 is-underlined" href="#about">About</a>
-          <a class="has-text-light m-2 nav-links m-2 is-underlined" href="#skills">Skills</a>
-          <a class="has-text-light m-2 nav-links m-2 is-underlined" href="#projects">Projects</a>
-          <a class="has-text-light m-2 nav-links m-2 is-underlined" href="#work">Resume</a>
-          <a class="has-text-light m-2 nav-links m-2 is-underlined" href="#contact">Contact</a>
+          <!--Navbar-->
+        <nav class="navbar is-size-5 is-fixed-top is-flex is-justify-content-flex-end">
+
+          <!--Add Logo-->
+
+          <div class="links-container m-5 p-5 is-flex is-align-items-center">
+            <a class="has-text-light m-2 nav-links m-2" href="#home">Home</a>
+            <a class="has-text-light m-2 nav-links m-2" href="#about">About</a>
+            <a class="has-text-light m-2 nav-links m-2" href="#skills">Skills</a>
+            <a class="has-text-light m-2 nav-links m-2" href="#projects">Projects</a>
+            <a class="has-text-light m-2 nav-links m-2" href="#contact">Contact</a>
+            <a class="resume-button is-flex is-align-items-center is-size-4 m-2 nav-links m-2" href=".//layouts/resume.html">Resume</a>
+          </div>
+        </nav>
+
+        <!--Icon Navbar-->
+        <nav class="icon-navbar is-fixed-left ml-5">
+          <a href="https://github.com/Liiv-Dev" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="www.linkedin.com/in/williejones32" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/channel/UCYtvxvNDFJ7I07akvGe2CWg" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a><i class="fab fa-tiktok"></i></a>
+          <a><i class="fab fa-twitch"></i></a>
         </nav>
 
           <!--Title and Intro Body-->
       <div id="home" class="intro height hero-body">
         <div class="container is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-space-around">
           <p class="title is-size-1 mt-6 has-text-light">
-            Hello 👋🏾,<br> I'm <span>Will</span>,<br>A Part-Time Student <br> And Software Developer
+            Hello 👋🏾<br> I'm <span>Will</span>,<br>A Part-Time Student <br> And Software Developer
           </p>
           <img src="Assets/images/pixel Picture.jpg" alt="Pixel Pic of ME" class="pixel-pic">
         </div>
@@ -71,30 +84,38 @@
           <!--FrontEnd Skills Progress Bars-->
           <div class="frontendSkills m-5">
             <p class="title"><span>FrontEnd</span></p>
-            <p class="has-text-white">HTML 99%</p>
+            <p class="has-text-white"><i class="fab fa-html5 is-size-4"></i> HTML 99%</p>
             <progress class="progress is-primary" value="99" max="100">99%</progress>
-            <p class="has-text-white">CSS 90%</p>
+
+            <p class="has-text-white"><i class="fab fa-css3-alt is-size-4"></i> CSS 90%</p>
             <progress class="progress is-primary" value="90" max="100">90%</progress>
-            <p class="has-text-white">JavaScript 80%</p>
+
+            <p class="has-text-white"><i class="fab fa-js is-size-4"></i> JavaScript 80%</p>
             <progress class="progress is-primary" value="80" max="100">80%</progress>
-            <p class="has-text-white">React 25%</p>
-            <progress class="progress is-primary" value="25" max="100">25%</progress>
-            <p class="has-text-white">Bulma 98%</pp>
+
+            <p class="has-text-white"><i class="fab fa-react is-size-4"></i> React 25%</p>
+            <progress class="progress is-primary" value="70" max="100">25%</progress>
+
+            <p class="has-text-white"><i class="fab fa-css3 is-size-4"></i> Bulma 98%</pp>
             <progress class="progress is-primary" value="98" max="100">98%</progress>
           </div>
 
           <!--BackEnd Skills Progress Bars-->
           <div class="backendSkills m-5">
             <p class="title has-text-white"><span>BackEnd</span></p>
-            <p class="has-text-white">Node 84%</p>
+            <p class="has-text-white"><i class="fab fa-node-js is-size-4"></i> Node 84%</p>
             <progress class="progress is-primary" value="84" max="100">84%</progress>
-            <p class="has-text-white">SQL 76%</p>
+
+            <p class="has-text-white"><i class="fab fa-node-js is-size-4"></i> SQL 76%</p>
             <progress class="progress is-primary" value="76" max="100">76%</progress>
-            <p class="has-text-white">MVC 76%</p>
+
+            <p class="has-text-white"><i class="fab fa-node-js is-size-4"></i> MVC 76%</p>
             <progress class="progress is-primary" value="76" max="100">76%</progress>
-            <p class="has-text-white">Express 70%</p>
+
+            <p class="has-text-white"><i class="fab fa-node-js is-size-4"></i></i> Express 70%</p>
             <progress class="progress is-primary" value="70" max="100">70%</progress>
-            <p class="has-text-white">MongoDB 80%</p>
+
+            <p class="has-text-white"><i class="fab fa-node-js is-size-4"></i> MongoDB 80%</p>
             <progress class="progress is-primary" value="80" max="100">80%</progress>
           </div>
 
@@ -178,108 +199,6 @@
       </div>
     </section>
 
-      <!--Work container-->
-    <section class="hero is-fullheight">
-      <div id="work" class="hero-body is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-
-        <div class="">
-          <p class="title is-size-1 has-text-light is-underlined m-3">
-            Resume
-          </p>
-        </div>
-
-        <div class="careers is-size-6 m-1" style="overflow-y: auto; max-height: 80vh;">
-          <!--Job Container-->
-        <div class="jobs">
-          <p class="title is-size-2 has-text-light is-underlined m-5 has-text-centered">
-            <span>Job Experience</span>
-          </p>
-
-          <p class="is-size-3 has-text-light m-2">
-            RenewAire LLC - Waunakee, WI
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Job Title:</span> Commercial Tech 
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Dates:</span> Dec 2022 - Current
-          </p>
-          <p class="has-text-light is-size-5 m-2 description">
-            <span>Description:</span> Build ventilation systems using hand tools and materials provided. Wire electrical components (unit & controllers) according to schematic layouts.  Run  HiPot  tests  and  perform  live  electrical  tests  to  ensure  units are running properly
-          </p>
-
-          <p class="is-size-3 has-text-light m-2">
-            ThermaStor - Madison, WI
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Job Title:</span> Refrigeration Tech 
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Dates:</span> July 2020 - Apr 2022
-          </p>
-          <p class="has-text-light is-size-5 m-2 description">
-            <span>Description:</span> Charge units with refrigerant, Braze copper parts & Assemble dehumidifiers, build electrical boxes that power unit, run hi-pot current test, final quality checks on units, box unites for shipping
-          </p>
-
-          <p class="is-size-3 has-text-light m-2">
-            Colony Brands - Sun Prairie, WI
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Job Title:</span> DCA 
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Dates:</span> Oct 2015 - 2022
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Description:</span> (Part-Time) All around employee. I work in all areas, Truck Load/Unload, Packing, Picking, Taping, Induction, Labeling, Product Prep, and Product Return. Operate Forklifts to pick Ship Alone orders and restocks
-          </p>
-        </div>
-
-        <!--Education Container-->
-        <div class="education m-3">
-          <p class="title is-size-2 has-text-light m-5 is-underlined has-text-centered">
-            <span>Education</span>
-          </p>
-
-          <p class="is-size-3 has-text-light m-2">
-            UW Madison Coding Bootcamp
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Program:</span> Full Stack Web Development
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Date/Grad:</span> August 2023 - Feb 2024!
-          </p>
-          <p class="has-text-light is-size-5 m-2 description">
-            <span>~</span> Learn fundamental concepts of web development, including HTML, CSS, and JavaScript. Work with servers, databases, and other back end technologies, such as MySQL database, and Node.js. Grow skills using NoSQL databases, convert traditional applications into progressive web applications, and learn React
-          </p>
-
-          <p class="is-size-3 has-text-light m-2">
-            Sun Prairie HighSchool
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Grad:</span> June 2015 
-          </p>
-          <p class="has-text-light is-size-5 m-2 description">
-            <span>~</span> General Studies
-          </p>
-
-          <p class="is-size-3 has-text-light m-2">
-            CodeCademy
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Program:</span> Full Stack Web Development
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>Date/Grad:</span> Self-Paced Career Path (25%) <progress class="progress is-primary m-1" value="25" max="100">84%</progress>
-          </p>
-          <p class="has-text-light is-size-5 m-2">
-            <span>~</span> Build stylized and responsive websites with HTML and CSS, interactive sites using JavaScript and host it on a remote GitHub repository, learn front-end skills needed to create and deploy interactive applications, like a single-page web app that handles user actions, and back-end development: creating a RESTful API that serves data and designing relational databases.
-          </p>
-        </div>
-        </div>
-    </section>
-
       <!--Contact Container-->
     <section class="hero is-fullheight">
 
@@ -304,7 +223,7 @@
 
     <footer>
       <p class="title is-size-1 has-text-light is-underlined has-text-centered mb-2">
-        Thanks For Visiting!
+        
       </p>
     </footer>
       <!--End of Content-->
