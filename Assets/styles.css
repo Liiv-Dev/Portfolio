@@ -18,10 +18,13 @@ nav {
   height: 5px;
 }
 
+nav a:hover {
+  color: cyan;
+}
+
 
   /* Styling for Intro */
   .intro {
-    height: 100vh;
     overflow: hidden;
   }
 
@@ -34,23 +37,16 @@ nav {
   }
 
   .pixel-pic {
-    width: 400;
-    height: 400px;
+    width: 300;
+    height: 300px;
     border-radius: 100px;
     box-shadow: 0px 5px 15px whitesmoke;
   }
 
   /* Styling for About Container */
 .about {
-  height: 100vh;
   overflow: hidden;
 }
-
-  .about-pic {
-    width: 300px;
-    height: 300px;
-    border-radius: 100px;
-  }
 
   .about-text {
     font-family: dosis;
@@ -168,7 +164,41 @@ nav {
     border: 1px solid white;
     border-radius: 20px;
   }
+
+  .height {
+    height: 100vh;
+  }
   
+  @media (max-width: 600px) {
+    .intro {
+      flex-direction: column;
+    }
+    .contact {
+      flex-direction: column;
+    }
+    .pixel-pic {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .pixel-pic {
+      width: 200px;
+      height: 200px;
+    }
+    .intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
   /* Shooting Star animation */
   .shooting-star {
     position: absolute;
